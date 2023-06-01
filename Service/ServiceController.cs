@@ -163,7 +163,7 @@ namespace Service
                     try
                     {
                         Load load = (Load)l;
-                        if (load.TimeStamp.Equals(time))
+                        if (load.Equals(time))
                             loads.Add(load);
                     }
                     catch (Exception ex)

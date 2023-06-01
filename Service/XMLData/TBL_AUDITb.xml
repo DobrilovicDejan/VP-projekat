@@ -486,4 +486,40 @@
     <MESSAGE_TYPE>Info</MESSAGE_TYPE>
     <MESSAGE>Podaci su procitani i prosledjeni</MESSAGE>
   </row>
+  <row>
+    <ID>129</ID>
+    <TIME_STAMP>1.6.2023. 19:56:06</TIME_STAMP>
+    <MESSAGE_TYPE>Info</MESSAGE_TYPE>
+    <MESSAGE>Podaci su procitani i prosledjeni</MESSAGE>
+  </row>
+  <row>
+    <ID>130</ID>
+    <TIME_STAMP>1.6.2023. 19:57:16</TIME_STAMP>
+    <MESSAGE_TYPE>Error</MESSAGE_TYPE>
+    <MESSAGE>U bazi ne postoje podaci za datum 1.6.2023.</MESSAGE>
+  </row>
+  <row>
+    <ID>131</ID>
+    <TIME_STAMP>1.6.2023. 20:04:21</TIME_STAMP>
+    <MESSAGE_TYPE>Info</MESSAGE_TYPE>
+    <MESSAGE>Podaci su procitani i prosledjeni</MESSAGE>
+  </row>
+  <row>
+    <ID>132</ID>
+    <TIME_STAMP>1.6.2023. 20:05:36</TIME_STAMP>
+    <MESSAGE_TYPE>Info</MESSAGE_TYPE>
+    <MESSAGE>Podaci su procitani i prosledjeni</MESSAGE>
+  </row>
+  <row>
+    <ID>133</ID>
+    <TIME_STAMP>1.6.2023. 20:05:40</TIME_STAMP>
+    <MESSAGE_TYPE>Info</MESSAGE_TYPE>
+    <MESSAGE>Podaci su procitani i prosledjeni</MESSAGE>
+  </row>
+  <row>
+    <ID>134</ID>
+    <TIME_STAMP>1.6.2023. 20:14:10</TIME_STAMP>
+    <MESSAGE_TYPE>Info</MESSAGE_TYPE>
+    <MESSAGE>Podaci su procitani i prosledjeni</MESSAGE>
+  </row>
 </STAVKE>
