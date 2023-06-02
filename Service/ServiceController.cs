@@ -265,7 +265,7 @@ namespace Service
         [OperationBehavior]
         public bool AddLoad(int id, DateTime time, double forecast, double measured)
         {
-            if (id < -1)
+            if (id < 0)
             {
                 id = IdCounter.LoadCounter++;
             }
