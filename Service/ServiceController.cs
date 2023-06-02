@@ -48,7 +48,7 @@ namespace Service
                     try
                     {
                         Audit audit = (Audit)obj;
-                        if (audit.TimeStamp.Equals(time))
+                        if (audit.Equals(time))
                             isHere |= true;
                     }
                     catch (Exception ex)
@@ -265,6 +265,10 @@ namespace Service
         [OperationBehavior]
         public bool AddLoad(int id, DateTime time, double forecast, double measured)
         {
+            if (id < -1)
+            {
+                id = IdCounter.LoadCounter++;
+            }
             Load load = new Load(id, time, forecast, measured);
 
 

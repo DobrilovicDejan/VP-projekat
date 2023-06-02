@@ -131,9 +131,19 @@ namespace Client
                     {
 
                         Console.WriteLine("Unesite ID: ");
-                        int br = Convert.ToInt32(Console.ReadLine());
+                        int br = -1;
+                        string input = Console.ReadLine();
+                        if(input != null && input != "" && input != "\n") 
+                        {
+                            br = Convert.ToInt32(input);
+                        }
                         Console.WriteLine("Unesite TIME STAMP u formatu yyyy-mm-dd HH:MM: ");
-                        DateTime date = DateTime.Parse(Console.ReadLine());
+                        DateTime date = DateTime.Now;
+                        input = Console.ReadLine();
+                        if (input != null && input != "" && input != "\n")
+                        {
+                            date = DateTime.Parse(input);
+                        }
                         Console.WriteLine("Unesite FORECAST VALUE: ");
                         double forecast = double.Parse(Console.ReadLine());
                         Console.WriteLine("Unesite MEASURED VALUE:");
@@ -141,8 +151,14 @@ namespace Client
 
                         if (serviceController.AddLoad(br, date, forecast, measured))
                         {
-
+                            if(br > 0) 
+                            { 
                             Console.WriteLine("\nUspesno je dodat Load objekat sa Id-em:" + br + ".");
+                            }
+                            else
+                            {
+                            Console.WriteLine("\nUspesno je dodat Load objekat.");
+                            }
                         }
                         else
                         {
