@@ -8,7 +8,7 @@ Predmetni projekat iz predmeta Virtualizacija Procesa
 #### 1. Kratak opis
 
 Svrha aplikacije je čitanje podataka o prognoziranoj i izmerenoj potrošnji električne energije, 
-uzuvažavanje zahteva performansi. Pošto je čitanje podataka iz eksternog skladišta podataka zahtevno sa stanovišta resura, 
+uz uvažavanje zahteva performansi. Pošto je čitanje podataka iz eksternog skladišta podataka zahtevno sa stanovišta resura, 
 ova aplikacija implementira istovremeno XML bazu podataka i In-Memory bazu podataka. 
 Jednom pročitan podatak iz XML-a upisuje se u In-Memory
 bazu podataka, gde ostaje određeno vreme. Podaci se čitaju iz In-Memory baze podataka dok se
